@@ -1,0 +1,9 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#0f172a"/>
+  <rect x="40" y="40" width="320" height="170" fill="#1e293b" rx="8"/>
+  <circle cx="100" cy="80" r="15" fill="#06b6d4"/>
+  <circle cx="140" cy="80" r="15" fill="#06b6d4"/>
+  <circle cx="180" cy="80" r="15" fill="#06b6d4"/>
+  <text x="200" y="130" font-size="16" fill="#94a3b8" text-anchor="middle">Expense Tracker</text>
+  <text x="200" y="160" font-size="12" fill="#64748b" text-anchor="middle">React Project</text>
+</svg>
