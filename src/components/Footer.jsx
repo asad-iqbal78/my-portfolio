@@ -12,12 +12,10 @@ const Footer = () => {
           <a href="https://github.com/asad-iqbal78" className="text-gray-400 hover:text-cyan-400 transition duration-300 font-semibold">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/asadiqbal" className="text-gray-400 hover:text-cyan-400 transition duration-300 font-semibold">
+          <a href="https://www.linkedin.com/in/asad-iqbal-637268272/" className="text-gray-400 hover:text-cyan-400 transition duration-300 font-semibold">
             LinkedIn
           </a>
-          <a href="https://twitter.com" className="text-gray-400 hover:text-cyan-400 transition duration-300 font-semibold">
-            Twitter
-          </a>
+          
         </div>
       </div>
     </footer>
