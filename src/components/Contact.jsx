@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           <div className="bg-gradient-to-br from-slate-800 to-slate-700/50 p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500/60 hover:shadow-lg hover:shadow-cyan-500/20 transition duration-300">
             <h3 className="text-xl font-bold mb-3 text-cyan-400">Email</h3>
-            <a href="mailto:asad@example.com" className="text-gray-300 hover:text-cyan-400 transition duration-300 break-all">
+            <a href="mailto:iasad0235@gmail.com" className="text-gray-300 hover:text-cyan-400 transition duration-300 break-all">
               iasad0235@gmail.com
             </a>
           </div>
