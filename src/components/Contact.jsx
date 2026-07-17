@@ -23,14 +23,14 @@ const Contact = () => {
 
           <div className="bg-gradient-to-br from-slate-800 to-slate-700/50 p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500/60 hover:shadow-lg hover:shadow-cyan-500/20 transition duration-300">
             <h3 className="text-xl font-bold mb-3 text-cyan-400">Phone</h3>
-            <a href="tel:+923001234567" className="text-gray-300 hover:text-cyan-400 transition duration-300">
+            <a href="tel:+923231569196" className="text-gray-300 hover:text-cyan-400 transition duration-300">
               +92 323 1569196
             </a>
           </div>
 
           <div className="bg-gradient-to-br from-slate-800 to-slate-700/50 p-6 rounded-lg border border-cyan-500/20 hover:border-cyan-500/60 hover:shadow-lg hover:shadow-cyan-500/20 transition duration-300">
             <h3 className="text-xl font-bold mb-3 text-cyan-400">LinkedIn</h3>
-            <a href="https://linkedin.com/in/asadiqbal" className="text-gray-300 hover:text-cyan-400 transition duration-300">
+            <a href="https://www.linkedin.com/in/asad-iqbal-637268272/" className="text-gray-300 hover:text-cyan-400 transition duration-300">
               View Profile
             </a>
           </div>
