@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 382" fill="none">
+  <defs>
+    <filter id="shadow" x="14" y="10" width="1172" height="364" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="7"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.24 0 0 0 0 0.2 0 0 0 0.1 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="382" fill="#E8F0EC"/>
+  <g filter="url(#shadow)">
+    <rect x="28" y="22" width="1144" height="338" rx="14" fill="#FCFDFC"/>
+    <path d="M42 22h174v338H42a14 14 0 0 1-14-14V36a14 14 0 0 1 14-14Z" fill="#F5F8F6"/>
+    <path d="M216 22v338" stroke="#E5ECE8"/>
+    <rect x="49" y="43" width="30" height="30" rx="9" fill="#187A68"/>
+    <path d="M57 59h14M64 52v14" stroke="#F7FBF8" stroke-width="2" stroke-linecap="round"/>
+    <text x="88" y="62" fill="#203A34" font-family="Arial,sans-serif" font-size="15" font-weight="700">Expense</text>
+    <text x="49" y="101" fill="#879792" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">WORKSPACE</text>
+    <rect x="42" y="113" width="157" height="34" rx="6" fill="#E6F0EB"/>
+    <rect x="55" y="124" width="12" height="12" rx="3" fill="#187A68"/>
+    <path d="M58 130h6M61 127v6" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="76" y="135" fill="#176957" font-family="Arial,sans-serif" font-size="11" font-weight="700">Overview</text>
+    <circle cx="61" cy="165" r="6" stroke="#83938D" stroke-width="1.4"/>
+    <path d="m65.5 169.5 4 4" stroke="#83938D" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="76" y="169" fill="#63736D" font-family="Arial,sans-serif" font-size="11">Transactions</text>
+    <circle cx="61" cy="199" r="6" stroke="#83938D" stroke-width="1.4"/>
+    <path d="M61 193v12M55 199h12" stroke="#83938D" stroke-width="1.2"/>
+    <text x="76" y="203" fill="#63736D" font-family="Arial,sans-serif" font-size="11">Categories</text>
+    <path d="M56 233h10v10H56zM59 230h10v10" stroke="#83938D" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="76" y="241" fill="#63736D" font-family="Arial,sans-serif" font-size="11">Reports</text>
+    <circle cx="58" cy="324" r="11" fill="#DDE9E3"/>
+    <path d="M54 326c1.1-3 6.9-3 8 0M56 320.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z" stroke="#507268" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M76 321h71" stroke="#A9B8B1" stroke-width="3" stroke-linecap="round"/>
+    <path d="M76 330h45" stroke="#D0DAD5" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="242" y="57" fill="#243C36" font-family="Arial,sans-serif" font-size="20" font-weight="700">Overview</text>
+    <text x="242" y="76" fill="#7C8B85" font-family="Arial,sans-serif" font-size="10">Your personal finance at a glance</text>
+    <rect x="1044" y="42" width="105" height="27" rx="5" fill="#F3F7F4" stroke="#E2EAE5"/>
+    <text x="1057" y="59" fill="#586B63" font-family="Arial,sans-serif" font-size="9" font-weight="600">This month</text>
+    <path d="m1134 53 4 4 4-4" stroke="#71827B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <rect x="242" y="91" width="285" height="78" rx="8" fill="#FFFFFF" stroke="#E4EBE7"/>
+      <text x="257" y="111" fill="#75847E" font-family="Arial,sans-serif" font-size="9">Total balance</text>
+      <path d="M258 132h102" stroke="#BECBC5" stroke-width="7" stroke-linecap="round"/>
+      <path d="M258 150h58" stroke="#E2E9E5" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="492" cy="111" r="12" fill="#EAF3EE"/>
+      <path d="M487 112h10M492 107v10" stroke="#39836F" stroke-width="1.5" stroke-linecap="round"/>
+      <rect x="539" y="91" width="285" height="78" rx="8" fill="#FFFFFF" stroke="#E4EBE7"/>
+      <text x="554" y="111" fill="#75847E" font-family="Arial,sans-serif" font-size="9">Income</text>
+      <path d="M555 132h91" stroke="#BECBC5" stroke-width="7" stroke-linecap="round"/>
+      <path d="M555 150h51" stroke="#E2E9E5" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="789" cy="111" r="12" fill="#EAF3EE"/>
+      <path d="m786 113 4-4 4 4M790 109v8" stroke="#39836F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="836" y="91" width="313" height="78" rx="8" fill="#FFFFFF" stroke="#E4EBE7"/>
+      <text x="851" y="111" fill="#75847E" font-family="Arial,sans-serif" font-size="9">Expenses</text>
+      <path d="M852 132h104" stroke="#BECBC5" stroke-width="7" stroke-linecap="round"/>
+      <path d="M852 150h66" stroke="#E2E9E5" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="1113" cy="111" r="12" fill="#F5EEE7"/>
+      <path d="M1108 111h10" stroke="#B57A4B" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <rect x="242" y="185" width="564" height="153" rx="8" fill="#FFFFFF" stroke="#E4EBE7"/>
+    <text x="258" y="207" fill="#324940" font-family="Arial,sans-serif" font-size="11" font-weight="700">Cash flow</text>
+    <text x="258" y="222" fill="#91A099" font-family="Arial,sans-serif" font-size="8">Income and expenses over time</text>
+    <path d="M270 310h516M270 283h516M270 256h516M270 238h516" stroke="#EDF1EF" stroke-width="1"/>
+    <path d="M294 295v15M335 274v36M376 282v28M417 253v57M458 267v43M499 243v67M540 261v49M581 250v60M622 271v39M663 238v72M704 257v53M745 247v63" stroke="#7EB29E" stroke-width="16" stroke-linecap="round"/>
+    <path d="M294 300c36-13 39-11 82-26 41-14 48-2 82-17 38-17 52-20 82-13 28 6 36-8 82-10 40-2 63 9 82-3 20-12 25-18 41-20" stroke="#187A68" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="822" y="185" width="327" height="153" rx="8" fill="#FFFFFF" stroke="#E4EBE7"/>
+    <text x="838" y="207" fill="#324940" font-family="Arial,sans-serif" font-size="11" font-weight="700">Spending categories</text>
+    <circle cx="884" cy="271" r="34" stroke="#DCE8E2" stroke-width="12"/>
+    <path d="M884 237a34 34 0 0 1 31.2 20.5" stroke="#187A68" stroke-width="12" stroke-linecap="round"/>
+    <path d="M914 273a34 34 0 0 1-19 29" stroke="#7EB29E" stroke-width="12" stroke-linecap="round"/>
+    <path d="M876 303a34 34 0 0 1-25-31" stroke="#C5A57B" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="940" cy="245" r="3.5" fill="#187A68"/>
+    <path d="M950 245h69" stroke="#AAB8B1" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="940" cy="269" r="3.5" fill="#7EB29E"/>
+    <path d="M950 269h54" stroke="#C0CBC5" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="940" cy="293" r="3.5" fill="#C5A57B"/>
+    <path d="M950 293h62" stroke="#D0D9D4" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

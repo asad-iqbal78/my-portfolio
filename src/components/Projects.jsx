@@ -1,68 +1,61 @@
 import { projects } from "../data/projects";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+
+const ProjectArtwork = ({ project }) => {
+  if (project.image) {
+    return (
+      <div className="project-art project-art-image">
+        <img className="project-image" src={project.image} alt={`${project.title} dashboard preview`} />
+      </div>
+    );
+  }
+
+  return (
+    <div className={`project-art project-art-${project.art}`} aria-hidden="true">
+      {project.art === "anpr" && <><span className="art-kicker">VISION SYSTEM / 01</span><span className="art-plate">ANPR <i>·</i> OCR</span><span className="art-foot">DETECT · RECOGNIZE</span></>}
+      {project.art === "mifra" && <><span className="art-kicker">BUSINESS PLATFORM</span><span className="art-title">MIFRA<br />ENTERPRISES</span><span className="art-foot">API · AUTH · FIRESTORE</span></>}
+      {project.art === "sports" && <><span className="art-kicker">BIIT SPORTS SOCIETY</span><span className="art-score"><b>LIVE</b><i>TOURNAMENT<br />&amp; SCORING</i></span><span className="art-foot">MULTI-SPORT PLATFORM</span></>}
+    </div>
+  );
+};
 
 const Projects = () => {
   return (
-    <section
-      id="projects"
-      className="bg-gradient-to-b from-slate-900 to-slate-950 text-white py-20 px-6"
-    >
-      <div className="max-w-6xl mx-auto">
-
-        <h2 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent mb-12 text-center">
-          Projects
-        </h2>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-          {projects.map((project) => (
-
-            <div
-              key={project.title}
-              className="bg-gradient-to-br from-slate-800 to-slate-700/50 rounded-xl overflow-hidden shadow-lg border border-cyan-500/20 hover:border-cyan-500/60 hover:shadow-2xl hover:shadow-cyan-500/30 transition duration-300 transform hover:scale-105 flex flex-col"
-            >
-
-              <img
-                src={project.image}
-                alt={project.title}
-                className="h-40 sm:h-48 w-full object-cover hover:scale-110 transition duration-300"
-              />
-
-              <div className="p-6 flex-1 flex flex-col">
-
-                <h3 className="text-xl sm:text-2xl font-bold mb-3 text-cyan-400">
-                  {project.title}
-                </h3>
-
-                <p className="text-gray-300 mb-6 flex-1">
-                  {project.description}
-                </p>
-
-                <div className="flex gap-4">
-
-                  <a
-                    href={project.github}
-                    className="flex-1 bg-gradient-to-r from-cyan-500 to-blue-500 px-4 py-2 rounded font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition duration-300 text-center"
-                  >
-                    GitHub
-                  </a>
-
-                  <a
-                    href={project.demo}
-                    className="flex-1 border-2 border-cyan-500 px-4 py-2 rounded font-semibold hover:bg-cyan-500/10 transition duration-300 text-center"
-                  >
-                    Live Demo
-                  </a>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          ))}
-
+    <section id="projects" className="section section-tint">
+      <div className="section-wrap">
+        <div className="section-heading section-heading-center">
+          <p className="eyebrow">Selected work</p>
+          <h2>Projects built to solve real problems</h2>
+          <p className="section-intro">A selection across AI, backend engineering, and full-stack development.</p>
         </div>
-
+        <div className="projects-grid">
+          {projects.map((project) => (
+            <article className="project-card" key={project.title}>
+              <ProjectArtwork project={project} />
+              <div className="project-content">
+                <p className="project-subtitle">{project.subtitle}</p>
+                <h3>{project.title}</h3>
+                <p className="project-description">{project.description}</p>
+                <ul className="technology-tags" aria-label="Technologies">
+                  {project.technologies.map((technology) => <li key={technology}>{technology}</li>)}
+                </ul>
+                <details className="project-details">
+                  <summary>Project details</summary>
+                  <ul>{project.details.map((detail) => <li key={detail}>{detail}</li>)}</ul>
+                </details>
+                {project.links.length > 0 && (
+                  <div className="project-links">
+                    {project.links.map((link) => (
+                      <a href={link.url} key={link.url} target="_blank" rel="noreferrer">
+                        {link.label} <FaArrowUpRightFromSquare aria-hidden="true" />
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );

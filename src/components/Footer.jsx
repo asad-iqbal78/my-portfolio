@@ -1,21 +1,22 @@
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-slate-900 text-white py-8 text-center border-t border-cyan-500/20">
-      <div className="max-w-7xl mx-auto px-6">
-        <p className="text-gray-400 mb-4">
-          © {currentYear} Asad Iqbal. All rights reserved.
-        </p>
-        
-        <div className="flex justify-center gap-6 flex-wrap">
-          <a href="https://github.com/asad-iqbal78" className="text-gray-400 hover:text-cyan-400 transition duration-300 font-semibold">
-            GitHub
-          </a>
-          <a href="https://www.linkedin.com/in/asad-iqbal-637268272/" className="text-gray-400 hover:text-cyan-400 transition duration-300 font-semibold">
-            LinkedIn
-          </a>
-          
+    <footer className="site-footer">
+      <div className="section-wrap footer-inner">
+        <div>
+          <a className="footer-name" href="#home">Asad Iqbal</a>
+          <p>Full-Stack &amp; Backend Developer | AI &amp; Computer Vision</p>
+        </div>
+        <div className="footer-right">
+          <div className="footer-socials">
+            <a href="https://github.com/asad-iqbal78" target="_blank" rel="noreferrer" aria-label="GitHub"><FaGithub /></a>
+            <a href="https://linkedin.com/in/asad-iqbal-637268272" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
+            <a href="mailto:iasad0235@gmail.com" aria-label="Email"><FaEnvelope /></a>
+          </div>
+          <p className="copyright">© {currentYear} Asad Iqbal</p>
         </div>
       </div>
     </footer>
