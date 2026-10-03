@@ -36,12 +36,12 @@ const Navbar = () => {
             <li key={target}><a href={`#${target}`} onClick={() => setMenuOpen(false)}>{label}</a></li>
           ))}
           <li className="mobile-resume">
-            <a className="button button-primary" href="/Asad-Iqbal-Resume.pdf" download="Asad-Iqbal-Resume.pdf">
+            <a className="button button-primary" href="/Asad_Iqbal_Resume.pdf" download="Asad_Iqbal_Resume.pdf">
               <FaDownload aria-hidden="true" /> Download Resume
             </a>
           </li>
         </ul>
-        <a className="button button-primary nav-resume" href="/CV.pdf" download="Asad-Iqbal-Resume.pdf">
+        <a className="button button-primary nav-resume" href="/Asad_Iqbal_Resume.pdf" download="Asad_Iqbal_Resume.pdf">
           <FaDownload aria-hidden="true" /> Download Resume
         </a>
       </nav>
